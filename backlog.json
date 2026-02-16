@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "tittel": "Vis liste over skader",
+        "kategori": "React & TypeScript",
+        "vanskelighetsgrad": "Enkel",
+        "beskrivelse": "Vis en liste over kundens skader (claims) fra example-response.json. Bruk eksisterende TypeScript-typer eller lag nye om nødvendig. Data inneholder 4 skader: 1 husforsikring, 2 hundeforsikringer og 1 bilforsikring.",
+        "hva_vi_ser_etter": [
+            "Hvordan du strukturerer komponenter",
+            "Bruk av TypeScript-typer",
+            "Håndtering av data og mapping",
+            "Grunnleggende React-kunnskap"
+        ],
+        "tips": "Start enkelt! Vis de viktigste feltene først: dato, type produkt, beskrivelse og status."
+    },
+    {
+        "id": 2,
+        "tittel": "Filtrer skader etter produkttype",
+        "kategori": "State & Interaktivitet",
+        "vanskelighetsgrad": "Enkel-Medium",
+        "beskrivelse": "Legg til mulighet for å filtrere skadelisten basert på produktrisikoBeskrivelse (f.eks. 'Bil', 'Hund', 'Hus og innbo'). Med 4 skader får du en god demonstrasjon av alle tre typer.",
+        "hva_vi_ser_etter": [
+            "State management med useState",
+            "UI/UX-tenkning rundt filter-komponent",
+            "Hvordan du bygger interaktive funksjoner",
+            "Diskusjon om alternative løsninger"
+        ],
+        "tips": "Test filteret med alle tre produkttyper som er representert i dataene!"
+    },
+    {
+        "id": 3,
+        "tittel": "Formater datoer på en brukervennlig måte",
+        "kategori": "Data & Formatering",
+        "vanskelighetsgrad": "Enkel",
+        "beskrivelse": "Datoene kommer i formatet 'YYYY-MM-DD'. Vis dem på en mer brukervennlig måte på norsk (f.eks. '15. november 2024').",
+        "hva_vi_ser_etter": [
+            "Kjennskap til dato-håndtering i JavaScript/TypeScript",
+            "Lage gjenbrukbare utility-funksjoner",
+            "Tanker rundt internasjonalisering",
+            "Diskusjon om ulike løsninger (native vs biblioteker)"
+        ],
+        "tips": "Opprett en utility-funksjon du kan gjenbruke for alle datoer i listen!"
+    },
+    {
+        "id": 4,
+        "tittel": "Forbedre tilgjengelighet",
+        "kategori": "Accessibility",
+        "vanskelighetsgrad": "Medium",
+        "beskrivelse": "Se på applikasjonen med tanke på universell utforming. Implementer minst én forbedring (semantisk HTML, ARIA-attributter, keyboard navigation, etc.).",
+        "hva_vi_ser_etter": [
+            "Forståelse for WCAG og accessibility-principles",
+            "Semantisk HTML",
+            "ARIA-attributter der det trengs",
+            "Diskusjon om keyboard navigation, screen readers, etc."
+        ],
+        "tips": "Gjør listen tabbar! La brukere navigere med tastatur."
+    },
+    {
+        "id": 5,
+        "tittel": "Legg til sortering av skadelisten",
+        "kategori": "UI & Logikk",
+        "vanskelighetsgrad": "Medium",
+        "beskrivelse": "La brukeren sortere skadelisten etter dato (nyeste/eldste) eller produkttype. Med kun 4 skader er det perfekt for å demonstrere sorteringslogikken.",
+        "hva_vi_ser_etter": [
+            "Implementering av sorteringslogikk",
+            "UI-design for sortering",
+            "Kombinasjon av sortering med eventuelle filtre",
+            "Diskusjon om edge cases"
+        ],
+        "tips": "Lag en dropdown eller toggle-buttons for sorteringsvalg!"
+    },
+    {
+        "id": 6,
+        "tittel": "Style med Gjensidige design system",
+        "kategori": "CSS & Design",
+        "vanskelighetsgrad": "Medium",
+        "beskrivelse": "Bruk CSS-variablene fra Gjensidiges design system (se src/styles/) til å style komponentene. Lag en visuelt tiltalende og profesjonell skadeliste.",
+        "hva_vi_ser_efter": [
+            "Forståelse for design systems og CSS-variabler",
+            "Visuell sans og designforståelse",
+            "Strukturering av CSS/styling",
+            "Diskusjon om styling-metoder"
+        ],
+        "tips": "Bruk color tokens, typography og spacing fra design systemet!"
+    },
+    {
+        "id": 7,
+        "tittel": "Vis utvidet skadeinformasjon",
+        "kategori": "Komponenter & UX",
+        "vanskelighetsgrad": "Medium",
+        "beskrivelse": "Når brukeren klikker på en skade, vis mer detaljert informasjon (ulykkeskode, diagnose, etc.). Velg mellom modal, expander eller side panel.",
+        "hva_vi_ser_etter": [
+            "Komponentstruktur og props-design",
+            "UX-tenkning og diskusjon om alternativer",
+            "Conditional rendering",
+            "Hvordan du tar beslutninger om brukeropplevelse"
+        ],
+        "tips": "Diskuter fordeler/ulemper med modal vs. expander vs. side panel!"
+    },
+    {
+        "id": 8,
+        "tittel": "Håndter manglende data",
+        "kategori": "Error Handling",
+        "vanskelighetsgrad": "Enkel-Medium",
+        "beskrivelse": "Noen skader har null-verdier (f.eks. 'diagnose', 'ulykkeskodeTekst'). Håndter dette på en brukervennlig måte i UI-et.",
+        "hva_vi_ser_efter": [
+            "Tanker rundt edge cases og feilhåndtering",
+            "TypeScript null-sjekking",
+            "UX ved manglende data",
+            "Defensive programming-practices"
+        ],
+        "tips": "Vis 'Ikke spesifisert' eller skjul feltet hvis det er tomt!"
+    },
+    {
+        "id": 9,
+        "tittel": "Legg til søkefunksjonalitet",
+        "kategori": "Search & Filtering",
+        "vanskelighetsgrad": "Medium-Avansert",
+        "beskrivelse": "La brukeren søke etter skader basert på tekst (f.eks. i risikoBeskrivelse eller produktrisikoBeskrivelse). Søk blant de 4 skadene.",
+        "hva_vi_ser_efter": [
+            "Implementering av søkelogikk",
+            "Performance-hensyn",
+            "Kombinasjon av søk med filtre/sortering",
+            "UI feedback ved søk"
+        ],
+        "tips": "Søk skal fungere på tvers av navn og produkttyper!"
+    },
+    {
+        "id": 10,
+        "tittel": "Lag en responsiv layout",
+        "kategori": "Responsive Design",
+        "vanskelighetsgrad": "Medium",
+        "beskrivelse": "Gjør applikasjonen responsiv slik at den fungerer godt på mobil, tablet og desktop.",
+        "hva_vi_ser_efter": [
+            "Forståelse for responsive design principles",
+            "Bruk av CSS media queries",
+            "Mobile-first tenkning",
+            "Diskusjon om breakpoints"
+        ],
+        "tips": "Test på gjeldende 4 skader på ulike skjermstørrelser!"
+    }
+]
