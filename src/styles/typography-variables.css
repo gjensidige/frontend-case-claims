@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Gjensidige Sans';
   font-display: swap;
-  src: url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeSans-Regular.woff2') format('woff2 supports variations'),
-    url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeSans-Regular.woff2') format('woff2-variations');
+  src: url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeSans-Regular.woff2') format('woff2 supports variations'),
+    url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeSans-Regular.woff2') format('woff2-variations');
 }
 
 /* Gjensidige Sans medium */
@@ -11,8 +11,8 @@
   font-family: 'Gjensidige Sans';
   font-style: medium;
   font-display: swap;
-  src: url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeSans-Medium.woff2') format('woff2 supports variations'),
-    url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeSans-Medium.woff2') format('woff2-variations');
+  src: url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeSans-Medium.woff2') format('woff2 supports variations'),
+    url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeSans-Medium.woff2') format('woff2-variations');
 }
 
 /* Gjensidige Sans bold */
@@ -21,8 +21,8 @@
   font-family: 'Gjensidige Sans';
   font-style: bold;
   font-display: swap;
-  src: url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeSans-Bold.woff2') format('woff2 supports variations'),
-    url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeSans-Bold.woff2') format('woff2-variations');
+  src: url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeSans-Bold.woff2') format('woff2 supports variations'),
+    url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeSans-Bold.woff2') format('woff2-variations');
 }
 
 /* Gjensidige Display medium */
@@ -31,8 +31,8 @@
   font-family: 'Gjensidige Display';
   font-style: medium;
   font-display: swap;
-  src: url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeDisplay-Medium.woff2') format('woff2 supports variations'),
-    url('https://cdn.gjensidade.no/builders/core/fonts/GjensidigeDisplay-Medium.woff2') format('woff2-variations');
+  src: url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeDisplay-Medium.woff2') format('woff2 supports variations'),
+    url('https://cdn.gjensidige.no/builders/core/fonts/GjensidigeDisplay-Medium.woff2') format('woff2-variations');
 }
 
 :root {
